@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .header{
+            background-color: greenyellow;
+            width: : 900px;
+            height: 90px;
+            text-align: center;
+            padding: 50px 0;
+        }
+        .header h1
+        .header h2{
+            color: greenyellow;
+            text-align: center;
+        }
+        #id1{
+            text-align: center;
+            background-color: grey;
+        }
+        .container{
+            margin: 0 auto;
+
+        }
+        .page-navigation{
+            background-color: #222;
+            border-color: #9d9d9d;
+            height: 60px;
+            float: right;
+            width: 1350px;
+            color: #9d9d9d;
+        }
+        .page-navigation li{
+            float: left;
+            width: 100px;
+            font-color: white;
+            padding-top: 10px;
+            text-align: center;
+        }
+        .page-navigation a{
+            display: block;
+            color: #9d9d9d;
+            line-height: 4px;
+            font-weight: bold;
+        }
+        a{
+            text-decoration: none;
+        }
+        .login{
+            padding: 15px;
+            float: right;
+        }
+        .login input[type="text"]{
+            padding: 5px;
+            margin-right: 5px;
+            border: 1px solid black;
+            border-radius: 5px
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>easy banking</h1>
+            <h2><small>create your account and transfer money to other peoples</small></h2>
+        </div>
+    </header>
+    <nav class="page-navigation" style="text-align: center;">
+        <div class="container">
+            <ul style="list-style-type: none; ">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">contact us</a></li>
+            </ul>
+            <form class="login" style="padding-top: 2px;" action="" name = "">
+                <label for="phone">your phone</label>
+                <input type="text" placeholder = "phone">
+                <label for="phone">your phone</label>
+                <input type="text" placeholder = "password">
+                <input type="submit" value = "sign in">
+            </form>
+        </div>
+    </nav>
+    <main>
+        <div>
+            <div>
+                <div>
+                    <div>
+                        <form style="background-color: steelblue; width: 300px; height: 320px; text-align: center; float: right;" action="">
+                            <h3 style = "text-align: center" >registration</h3>
+                             <p>sign up for 1 minute</p>
+                            <label for="name">your name</label>
+                            <br>
+                            <input type="text" placeholder = "name">
+                            <br>
+                            <label for="surname">your surname</label>
+                            <br>
+                            <input type="text" placeholder = "surname">
+                            <br>
+                            <label for="phone">your phone</label>
+                            <br>
+                            <input type="text" placeholder = "phone">
+                            <br>
+                            <label for="credit card number">your credit card number</label>
+                            <br>
+                            <input type="text" placeholder = "credit card number">
+                            <br>
+                            <label for="password">your password</label>
+                            <br>
+                            <input type="text" placeholder = "password">
+                            <br>
+                            <input type="submit" value = "sign up">
+                        </form>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <form style="background-color: white; height: 150px;">
+                            <h3 id="id1">account information</h3>
+                            <p>information about owner, balanse and last payments</p>
+                            <label for="credit card number">your credit card number</label>
+                            <input type="text" placeholder = "credit card number">
+                            <br>
+                            ><input type="submit" value = "find out">
+                        </form>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <form style="background-color: white; height: 150px">
+                            <h3 id="id1">money transfer</h3>
+                            <p>transfer money to other users all over the world</p>
+                            <label for="receiver">input receiver's card</label>
+                            <input type="text" placeholder = "receiver">
+                            <br>
+                            <label for="sum">input sum of transfer</label>
+                            <input type="text" placeholder = "sum">
+                            <br>
+                            ><input type="submit" value = "transfer">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>copyrignt example.com</p>
+    </footer>
+</body>
+</html>
